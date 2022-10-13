@@ -1,0 +1,35 @@
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.4.18;
+
+contract CrearPropuesta {
+
+  string public Titulo;
+
+  function DefineTitulo(string _ipfsHash) external {
+    Titulo = _ipfsHash;
+  }
+
+  string public Descripcion;
+
+  function DefineDescripcion(string _ipfsHash) external {
+    Descripcion = _ipfsHash;
+  }
+
+  string public Opcion1;
+
+  function DefineOpcion1(string _ipfsHash) external {
+    Opcion1 = _ipfsHash;
+  }
+
+  string public Opcion2;
+
+  function DefineOpcion2(string _ipfsHash) external {
+    Opcion2 = _ipfsHash;
+  }
+
+  string public Opcion3;
+
+  function DefineOpcion3(string _ipfsHash) external {
+    Opcion3 = _ipfsHash;
+  }
+}
